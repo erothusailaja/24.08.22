@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i,j;
+	int n=6;
+	for(i=1;i<=6;i++)
+	{
+		n=6;
+		for(j=1;j<=i;j++)
+		{
+			printf("%2d",n);
+			n--;
+		}
+		printf("\n");
+	}
+}
